@@ -15,30 +15,4 @@ nav {
     background-color: #82AC9F;
 }
 
-nav ul {
-    list-style: none;
-}
-
-nav a {
-    text-decoration: none;
-    text-align: center;
-    display: block;
-    padding: 10px;
-    color: wheat;
-}
-
-nav a:hover {
-    background: #3c856e;
-}
-
-/*Flex*/
-@media screen and (min-width: 768px) {
-    nav ul {
-        display: flex;
-    }
-    nav li {
-        flex-grow: 1;
-        flex-shrink: 1;
-        flex-basis: 0;
-    }
-}
+/* TODO */
