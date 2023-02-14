@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla:wght@200&display=swap");
+
+* {
+    /* margin: 0; */
+    /* padding: 0; */
+    /* box-sizing: border-box; */
+}
+
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #bdc4cc;
+    font-family: 'Piazzolla', serif;
+    color: #FCFCFF;
+}
+
+img {
+    max-width: 30rem;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+#name-title {
+    text-align: center;
+    /* box model demo  */
+    /* box-sizing: border-box;
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 10px; */
+}
+
+.navbar {
+    background-color: white;
+    height: 100%;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 2em;
+    text-align: center;
+    padding: 1em;
+}
+
+.navbar li a {
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.main-content {
+    background-color: #FCFCFF;
+    max-width: 100%;
+    color: #7E8287;
+    padding: 40px;
+}
+
+.work-education-title {
+    text-align: center;
+}
+
+
+
+.header, .footer {
+    background-color: #B98389;
+    padding: 40px;
+}
+
+.header h2, .footer h2 {
+    text-align: center;
+}
+
+.header p, .footer p {
+    text-align: center;
+}
+
+.header div, .footer div {
+    text-align: center;
+}
+
+.footer a {
+    display: inline-block;
+    margin: 5px;
+}

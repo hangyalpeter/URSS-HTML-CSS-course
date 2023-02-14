@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Pseudo és Position Demo</title>
+</head>
+
+<body>
+  <header>
+    <div class="img-wrapper">
+      <img src="https://source.unsplash.com/1600x300/?banner" alt="">
+    </div>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>Posts</li>
+        <li>f.a.q.</li>
+        <li>About</li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <header>
+      <h1>Post title</h1>
+      <h3>Author: John Author</h3>
+    </header>
+
+    <section class="floating-section clearfix">
+      <img class="float-left" src="https://source.unsplash.com/300x300/?autumn" alt="nice autumn picture" />
+      <p>
+        I'm baby forage kale chips tumeric ennui, street art venmo kinfolk
+        tilde mixtape. Semiotics bespoke glossier, subway tile gentrify fam
+        prism flexitarian. Paleo shoreditch biodiesel pok pok celiac mustache
+        adaptogen forage man bun vexillologist. Kinfolk pabst deep v, yes plz
+        etsy green juice 90's humblebrag williamsburg poutine distillery
+        try-hard air plant craft beer.
+      </p>
+      <img class="float-right" src="https://source.unsplash.com/300x300/?winter" alt="nice autumn picture" />
+
+      <p>
+        Bicycle rights tonx DIY mumblecore disrupt microdosing taxidermy
+        everyday carry hell of man bun gochujang copper mug vice banh mi.
+        Tilde pug tumeric polaroid af, whatever sus single-origin coffee
+        thundercats try-hard unicorn street art. 3 wolf moon irony readymade,
+        disrupt leggings whatever occupy beard lumbersexual offal flannel
+        cold-pressed gochujang vibecession squid. Sus cardigan af
+        vexillologist vibecession, mustache selfies activated charcoal four
+        loko PBR&B ugh direct trade narwhal. Gochujang vaporware taiyaki 3
+        wolf moon. Semiotics cliche four loko farm-to-table craft beer photo
+        booth try-hard pug gatekeep squid.
+      </p>
+
+      <p class="clear">
+        Pour-over ennui humblebrag flexitarian jean shorts, swag bitters
+        letterpress vice godard echo park. Edison bulb slow-carb cray
+        vexillologist. Roof party freegan chicharrones air plant ethical,
+        single-origin coffee Brooklyn. Polaroid JOMO neutra aesthetic green
+        juice. Typewriter lyft shoreditch hoodie keytar. Distillery poke kogi,
+        irony messenger bag aesthetic lumbersexual hella crucifix paleo
+        gatekeep mumblecore bicycle rights.
+      </p>
+    </section>
+    <article>
+      <p>
+        Bacon ipsum dolor amet tenderloin prosciutto leberkas, t-bone kevin
+        salami brisket cupim ribeye beef ribs ground round bresaola. Pig
+        burgdoggen shoulder, filet mignon shankle rump cupim leberkas pork
+        belly beef ham hock buffalo beef ribs chicken shank. Jowl meatball
+        ball tip, hamburger ham hock doner spare ribs drumstick. Chislic
+        ground round chicken flank, frankfurter tenderloin short loin sirloin.
+        Pig cupim filet mignon swine. Kielbasa chislic sirloin, chicken jowl
+        pig ham corned beef venison prosciutto salami picanha tail meatball
+        pork belly. Ball tip meatball chislic pork ham t-bone bresaola filet
+        mignon burgdoggen andouille.
+      </p>
+      <p>
+        Shankle flank pig frankfurter cow turducken drumstick ground round
+        tri-tip shank venison leberkas. Swine beef pork sirloin porchetta.
+        Sausage rump turducken, cow pastrami cupim bresaola tri-tip pork chop.
+        Pork belly chuck pig pancetta leberkas jowl andouille chicken.
+      </p>
+
+      <p>
+        Shank venison chuck ribeye tri-tip. Swine salami jowl short ribs chuck
+        hamburger meatball tenderloin jerky landjaeger frankfurter ground
+        round. Swine shankle pork rump filet mignon turkey, sirloin tri-tip
+        cupim t-bone ribeye flank chislic. Shankle ham kielbasa, alcatra
+        buffalo shoulder bresaola turducken swine landjaeger chicken biltong
+        andouille kevin tail. Landjaeger pork ham hock, andouille ground round
+        venison tongue buffalo. Turkey leberkas pig meatloaf ham hock pancetta
+        shoulder burgdoggen drumstick ham kielbasa pastrami pork porchetta.
+      </p>
+
+      <p>
+        Tenderloin pork tail meatloaf pancetta spare ribs meatball flank
+        venison sirloin. Corned beef sirloin ribeye landjaeger. Ham hock
+        turducken rump, picanha tongue kevin shankle andouille chuck tri-tip
+        pork loin ball tip bacon. Kevin chislic shoulder cupim venison.
+      </p>
+
+      <p>
+        Prosciutto swine fatback buffalo pancetta picanha frankfurter. Spare
+        ribs chuck bresaola shoulder landjaeger rump swine porchetta flank
+        pastrami boudin sirloin burgdoggen short ribs. Kevin strip steak
+        salami chuck swine, leberkas jowl rump pig frankfurter kielbasa. Filet
+        mignon leberkas alcatra porchetta frankfurter turkey. Frankfurter
+        buffalo sirloin kielbasa andouille doner. Tenderloin brisket short
+        loin shank leberkas chislic sausage tail chicken pig. T-bone alcatra
+        tail, flank drumstick rump spare ribs burgdoggen corned beef capicola
+        chuck meatloaf biltong fatback.
+      </p>
+
+      <p>
+        Does your lorem ipsum text long for something a little meatier? Give
+        our generator a try… it’s tasty!
+      </p>
+
+      <div class="paywall">You must pay to see the full article</div>
+    </article>
+  </main>
+
+  <footer class="page-footer">
+    <div>
+      <p>Very nice footer</p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dolores
+        porro provident magni molestias fugit, omnis facilis. Vitae, eligendi
+        facere?
+      </p>
+    </div>
+
+    <div>
+      <h4>Subscribe to our newsletter</h4>
+      <input type="email" name="" id="" required placeholder="Enter your e-mail here..." />
+      <span></span>
+    </div>
+  </footer>
+
+  <div class="cookie-notification">
+    We sell your data for money
+    <span class="cookie-notification-closer">X</span>
+  </div>
+</body>
+
+</html>

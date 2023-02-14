@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            text-align: center;
+            height: 100px;
+            width: 31.33%;
+            margin: 1%;
+            /* border: 1px black solid; */
+            float: left;
+        }
+
+        .red {
+            background-color: red;
+            /* float: right */
+        }
+
+        .blue {
+            background-color: blue;
+            /* float: left; */
+            /* margin: 10px; */
+        }
+
+        .yellow {
+            background-color: yellow;
+        }
+
+        .boxes {
+            border: 1px black solid;
+        }
+
+        .boxes:after {
+            content: "hello after content";
+            display: block;
+            clear: both;
+        }
+
+        .content {
+            padding: 20px;
+            background-color: #ccc;
+            /* clear: left; */
+            /* clear: right; */
+            clear: both;
+            margin-top: 50px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="boxes">
+        <div class="box red">Content 1</div>
+        <div class="box blue">Content 2</div>
+        <div class="box yellow">Content 3</div>
+    </div>
+
+    <div class="content">
+        <h2>
+            Content
+        </h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit nihil aliquid adipisci deleniti praesentium
+            odit alias nulla delectus soluta ipsum accusantium incidunt, voluptate facilis ipsam, natus, ea fuga
+            consequuntur. Rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi perspiciatis id esse,
+            recusandae eius totam accusantium beatae perferendis nostrum laudantium!
+        </p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="table.html">Table</a></li>
+            <li><a href="form.html">Form</a></li>
+        </ul>
+    </div>
+    <div class="form-wrapper">
+        <!-- Text input -->
+        <label for="name">Név</label>
+        <input id="name" name="name" type="text" placeholder="Add meg a neved"><br>
+
+        <!-- Checkbox/radio -->
+        <p style="display: inline-block;">Neme:</p>
+        <input type="radio" name="gender" value="male" id="male">
+        <label for="male">Férfi</label> 
+        <input type="radio" name="gender" value="female" id="female">
+        <label for="female">Nő</label> 
+        <input type="radio" name="gender" value="other" id="other">
+        <label for="other">Más</label> 
+        
+        <br>
+
+        <!-- Fieldset - legend -->
+        <fieldset>
+            <legend>Személyes adatok</legend>
+            <div>
+                <label for="birthdate">Születési idő: </label>
+                <input id="birthdate" name="birthdate" type="date"><br>
+                <label for="city">Város: </label>
+                <input id="city" name="city" type="text"><br>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Hobbik</legend>
+            <div>
+                <input type="checkbox" name="hobbies" id="sport" checked>
+                <label for="sport">Sport</label><br>
+                <input type="checkbox" name="hobbies" id="reading">
+                <label for="reading">Olvasás</label><br>
+                <input type="checkbox" name="hobbies" id="music">
+                <label for="music">Zene</label>
+            </div>
+        </fieldset>
+    </div>
+
+</body>
+
+</html>
