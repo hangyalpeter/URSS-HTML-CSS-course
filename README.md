@@ -1,7 +1,4 @@
 # URSS-HTML-CSS-basics
-
-## Webfejlesztés alapjai
-
 ### Alapvető szoftverek, amire szükség lesz:
 - Visual Studio Code (IDE): https://code.visualstudio.com/download
 - Böngésző (Google Chrome): https://www.google.com/chrome/
@@ -21,9 +18,7 @@
 
 ![how-do-webpages-work](https://res.cloudinary.com/academind-gmbh/image/upload/f_auto,q_auto:eco/dpr_2.0,w_400,c_limit,g_center/v1/academind.com/content/tutorials/how-the-web-works/how-the-web-works-big-picture)
 
-### HTML alapok (HTML5)
-
-
+## HTML alapok (HTML5)
 
 A **HTML** (*HyperText Markup Langauge*) az alapvető építőköve a weboldalaknak. Ez határozza meg a tartalom szerkezetét. A HTML melletti technológiák általánosságban a weboldal megjelenését és viselkedését befolyásolják. (Hypertext => a weboldalak kapcsolódására, kapcsolatára utal)
 A HTML megjelöli (= markup) a különböző tartalmakat (szövegeket, képeket, más tartalmakat), ezen megjelölések segítségével jeleníti meg a
@@ -34,7 +29,7 @@ böngésző a tartalmat. A HTML megjelölései különböző elemeket (element) 
 A HTML-elemek **attribútumokkal** rendelkeznek; ezek olyan további értékek, amelyek az elemeket konfigurálják, vagy különböző módon módosítják viselkedésüket, hogy megfeleljenek a felhasználók által várt kritériumoknak. Ezek jellemzően mindig kulcs-érték párok,
 és az értékeket ajánlás alapján mindin idézőjelbe érdemes tenni (pl.: ```<img src="img_girl.jpg">``` )
 
-### CSS alapok
+## CSS alapok
 
 A CSS (Cascading Style Sheets) egy olyan nyelv, amely segítségével egy HTML dokumentum megjelenését tudjuk megfogalmazni. A CSS leírja, hogy
 az adott elemek hogyan jelenjenek meg a böngészőben. Arra használjuk, hogy megadjuk az oldal elrendezését, betűtípusát, betűméretét, a színeket, 
@@ -54,7 +49,7 @@ Alap stílusjegyek:
 
 [Bővebben a CSS box-modelről](https://css-tricks.com/the-css-box-model/)
 
-### Szemantikus HTML elemek
+## Szemantikus HTML elemek
 
 A **szemantikus** HTML a weboldalon található tartalom jelentését erősíti, nem pedig egyszerűen a megjelenését. A szemantikus HTML-elemek olyan elemek, amelyek egyértelműen leírják a weboldal egy adott részének célját és tartalmát. A szemantikus elemek például a következők:
 
@@ -68,9 +63,17 @@ A **szemantikus** HTML a weboldalon található tartalom jelentését erősíti,
 
 A szemantikus elemek használata segít javítani a weboldalak hozzáférhetőségét és karbantarthatóságát, mivel megkönnyíti az oldal szerkezetének és tartalmának megértését mind az emberek, mind a gépek számára.
 
-### Advanced CSS
+## Advanced CSS - CSS Layouts
 
-#### Floating
+### Normal Flow
+
+A normál flow vagy flow elrendezés (layout) az a mód, ahogyan a blokk és az inline elemek megjelennek az oldalon, mielőtt bármilyen változtatás történne az elrendezésükön. Amint valamely elemet kivesszük a flow-ból, az önállóan működik.
+
+Normál flow-ban az inline elemek abban az irányban jelennek meg, ahogyan a szavak a dokumentum írásmódjának megfelelően megjelennek egy mondatban. A blokkelemek egymás után jelennek meg, ahogyan a bekezdések az adott dokumentum Írásmódjában. Tehát az inline elemek egymás után, balról indulva jelennek meg, a blokkelemek pedig felülről indulnak, és lefelé haladnak az oldalon.
+
+![css-normal-flow](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flow_Layout/Block_and_Inline_Layout_in_Normal_Flow/mdn-horizontal.png)
+
+### Floating
 
 A CSS **float** tulajdonsággal megadható, hogy egy elem hogyan 'lebegjen' a weblap elrendezésében. Ha egy elemet lebegőre (=float) állítunk, akkor az elemet kivesszük a dokumentum normál áramlásából, és a tartalmazó blokk bal vagy jobb oldalára helyezzük, lehetővé téve, hogy más elemek körülötte áramoljanak.
 
@@ -93,7 +96,7 @@ A clear tulajdonság a következő értékek egyikét veszi fel:
 
 
 
-#### Positioning
+### Positioning
 
 A **CSS pozicionálás** a HTML-elemek weblapon való elhelyezésének módszerére utal. A CSS position tulajdonság az elemhez használandó pozicionálási módszer típusának megadására szolgál. A 'position' tulajdonság öt értéket vehet fel:
 
@@ -111,7 +114,7 @@ Egy abszolút elem mindig megkeresi, hogy a parent elemek közül van-e relatív
 
 ![css-positioning](https://www.csssolid.com/images/csspositions/css-position-all.png)
 
-#### Flexbox
+### Flexbox
 
 A Flexbox egy CSS modul, amely segítségével különböző elemeket tudunk sorokba és oszlopokba rendezni.
 Az elemeket ki tudjuk terjeszteni, nyújtani, vagy összeszűkíteni akár, hogy a kívánt elrendezést elérjük.
