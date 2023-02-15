@@ -1,16 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Timetable</title>
-  </head>
 
-  <body>
-   
-    <!-- Ebben a feladatban állíts össze egy órarendet a html táblázat-tagek segítségével: -->
-    <!-- table, caption, thead, tr, th  -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Timetable</title>
+</head>
 
-    <img src="timetable.PNG" alt="timetable example" />
-  </body>
+<style>
+  table,
+  th,
+  td {
+    border-collapse: collapse;
+    border: black 1px solid;
+    padding: 1rem;
+  }
+
+  th {
+    color: aqua;
+  }
+
+  td[colspan="5"] {
+    text-align: center;
+  }
+  .table-wrapper {
+    padding: 2rem;
+    background-color: beige;
+    width: fit-content;
+    border-radius: 25px;
+    margin: 2rem;
+  }
+</style>
+
+<body>
+
+  <!-- Ebben a feladatban állíts össze egy órarendet a html táblázat-tagek segítségével: -->
+  <!-- table, caption, thead, tr, th  -->
+
+  <img src="timetable.PNG" alt="timetable example" />
+
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>8:00-8:45</td>
+          <td rowspan="2">ipsum</td>
+          <td>ipsum</td>
+          <td>ipsum</td>
+          <td>ipsum</td>
+          <td>ipsum</td>
+        </tr>
+        <tr>
+          <td>9:00-9:45</td>
+          <td>ipsum</td>
+          <td>ipsum</td>
+          <td>ipsum</td>
+          <td>ipsum</td>
+        </tr>
+        <tr>
+          <td>10:00-10:45</td>
+          <td>ipsum</td>
+          <td>ipsum</td>
+          <td>ipsum</td>
+          <td>ipsum</td>
+          <td>ipsum</td>
+        </tr>
+        <tr>
+          <td>11:00-11:45</td>
+          <td>ipsum</td>
+          <td>ipsum</td>
+          <td>ipsum</td>
+          <td>ipsum</td>
+          <td>ipsum</td>
+        </tr>
+        <tr>
+          <td>12:15-13:00</td>
+          <td>ipsum</td>
+          <td>ipsum</td>
+          <td>ipsum</td>
+          <td>ipsum</td>
+          <td>ipsum</td>
+        </tr>
+        <tr>
+          <td>13:15-14:00</td>
+          <td>ipsum</td>
+          <td>ipsum</td>
+          <td>ipsum</td>
+          <td>ipsum</td>
+          <td>ipsum</td>
+        </tr>
+      <tfoot>
+        <tr>
+          <td>14:00-16:00</td>
+          <td colspan="5">Napközi</td>
+        </tr>
+      </tfoot>
+      </tbody>
+    </table>
+
+  </div>
+
+</body>
+
 </html>

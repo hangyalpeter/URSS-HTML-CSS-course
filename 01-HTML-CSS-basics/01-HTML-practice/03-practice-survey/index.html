@@ -1,16 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Űrlap</title>
-  </head>
 
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Űrlap</title>
+</head>
 
-    <!-- Ebben a feladatban egy űrlapot készíts el a következő tagek használatával: 
+<style>
+  p {
+    margin: 0;
+  }
+</style>
+<body>
+
+  <!-- Ebben a feladatban egy űrlapot készíts el a következő tagek használatával: 
         div, h1, form, fielset, legend, input, textarea.  -->
 
-    <img src="urlap.PNG" />
-  </body>
+<h1>Regisztrálj most, és találd meg a párod még ma!</h1>
+
+  <form>
+    <fieldset>
+      <legend>Személyes adatok</legend>
+      <label for="name">Név:</label>
+      <input id="name" name="nameInput" placeholder="Add meg a neved" type="text">
+
+      <br>
+      <label for="email">Email:</label>
+      <input id="email" name="emailInput" placeholder="Add meg az email címed" type="email">
+
+      <br>
+      <label for="city">Város</label>
+      <input id="city" name="cityInput" placeholder="Hol laksz?" type="text">
+
+      <br>
+      <label for="age">Életkor:</label>
+      <input id="age" name="ageInput" placeholder="Hány éves vagy?" type="number">
+      <br>
+
+      <p>Nem</p>
+      <input type="radio" name="gender" id="male" value="male">
+      <label for="male">Férfi</label>
+
+      <br>
+      <input type="radio" name="gender" id="female" value="female">
+      <label for="female">Nő</label>
+
+      <br>
+      <input type="radio" name="gender" id="other" value="other">
+      <label for="other">Más</label>
+      <br>
+      <label for="registrationDate">Regisztráció dátuma:</label>
+      <input type="date" name="registrationDate" id="registrationDate">
+    </fieldset>
+
+    <fieldset>
+      <legend>Kit keresel?</legend>
+      <input type="checkbox" name="lookingfor" id="males">
+      <label for="males">Férfiak</label>
+      <br>
+      <input type="checkbox" name="lookingfor" id="females">
+      <label for="females">Nők</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Mivel töltöd a szabadidőd?</legend>
+      <input type="checkbox" name="hobbies" id="concert">
+      <label for="concert">Koncert</label>
+
+      <br>
+      <input type="checkbox" name="hobbies" id="theater">
+      <label for="theater">Színház</label>
+
+      <br>
+      <input type="checkbox" name="hobbies" id="cinema">
+      <label for="cinema">Mozi</label>
+
+      <br>
+      <input type="checkbox" name="hobbies" id="reading">
+      <label for="reading">Olvasás</label>
+
+      <br>
+      <input type="checkbox" name="hobbies" id="hiking">
+      <label for="hiking">Túrázás</label>
+
+      <br>
+
+      <input type="checkbox" name="hobbies" id="music">
+      <label for="music">Zene</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Írj magadról...</legend>
+        <textarea name="aboutyou" id="aboutyou" cols="60" rows="5"></textarea>  
+      </fieldset>
+
+
+  </form>
+
+</body>
+
 </html>
