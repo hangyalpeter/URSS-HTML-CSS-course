@@ -88,3 +88,8 @@ p {
 .img-wrapper img {
     width: 100%;
 }
+
+table, th, td {
+    border: 1px black solid;
+    padding: 5px;
+}

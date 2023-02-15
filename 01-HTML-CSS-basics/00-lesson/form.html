@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="table.html">Table</a>
+            </li>
+            <li>
+                <a href="form.html">Form</a>
+            </li>
+        </ul>
+    </div>
+
+    <form>
+        <label for="full-name">Név: </label>
+        <input id="full-name" name="full-name" placeholder="Add meg a neved..." type="text">
+        <br>
+        <fieldset>
+            <legend>Neme:</legend>
+            <input type="radio" name="gender" value="male" id="male">
+            <label for="male">Férfi</label>
+            <input type="radio" name="gender" value="female" id="female">
+            <label for="female">Nő</label>
+            <input type="radio" name="gender" value="other" id="other">
+            <label for="other">Más</label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Személyes adatok</legend>
+            <label for="birthdate">Születési idő: </label>
+            <input type="date" id="birthdate" name="birthdate">
+            <br>
+            <label for="city">Város: </label>
+            <input type="text" id="city" name="city">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Hobbik</legend>
+            <input type="checkbox" name="hobbies" id="sport">
+            <label for="sport">Sport</label>
+            <br>
+            <input type="checkbox" name="hobbies" id="reading">
+            <label for="reading">Olvasás</label>
+            <br>
+            <input type="checkbox" name="hobbies" id="music">
+            <label for="music">Zene</label>
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
