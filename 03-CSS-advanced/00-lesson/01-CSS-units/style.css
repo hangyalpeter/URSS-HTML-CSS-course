@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size:50px;
+}
+
+.box {
+    border: 3px solid blue;
+    background-color: antiquewhite;
+    height: 100px;
+    margin: 5px 0;
+}
+
+.px {
+    width: 200px;
+}
+
+.vw {
+    width: 10vw;
+    height: 10vh;
+}
+
+.em {
+    width: 10em
+}
+
+.em-rem {
+    font-size: 16px;
+    line-height: 2em;
+}
+
+.em-rem div {
+    font-size: 30px;
+    border: 1px solid black;
+}
+
+.em-rem div span {
+    /* font-size: 0.5em; */
+    font-size: 0.5rem;
+}
