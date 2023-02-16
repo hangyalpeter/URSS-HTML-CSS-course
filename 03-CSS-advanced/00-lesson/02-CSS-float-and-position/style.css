@@ -64,3 +64,18 @@ footer input {
     margin: 0.5rem;
 }
 
+/* FLOATING  */
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}

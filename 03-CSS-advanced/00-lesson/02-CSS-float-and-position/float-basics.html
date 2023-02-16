@@ -6,7 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+    <style>
+        .box {
+            height: 100px;
+            width: 100px;
+            border: 1px black solid;
+            float: left;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .blue {
+            background-color: blue;
+            /* margin: 10px; */
+        }
+
+        .yellow {
+            background-color: yellow;
+        }
+
+        .content {
+            /* clear: both; */
+            margin-top: 50px;
+        }
+
+        .boxes:after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+    </style>
 </head>
 
 <body>
@@ -14,6 +46,12 @@
         <div class="box red">Content 1</div>
         <div class="box blue">Content 2</div>
         <div class="box yellow">Content 3</div>
+    </div>
+
+    <div class="content">
+        <h2>Content</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic et, rerum sed ab corrupti animi dolore ducimus
+            sit repudiandae rem odio accusantium cumque pariatur deserunt quod. Enim id nihil iure?</p>
     </div>
 
 </body>

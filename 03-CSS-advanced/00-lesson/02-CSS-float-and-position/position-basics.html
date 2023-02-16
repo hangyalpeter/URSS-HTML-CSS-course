@@ -1,17 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-   
+
+    <style>
+        .boxes {
+            position: relative;
+        }
+
+        .box {
+            height: 100px;
+            width: 100px;
+            border: 1px black solid;
+        }
+
+        .red {
+            background-color: red;
+            position: relative;
+            z-index: 1;
+        }
+
+        .blue {
+            background-color: blue;
+            position: absolute;
+            top: 50px;
+            left: 10px;
+            /* bottom: 10px;
+            right: 10px; */
+            z-index: -1;
+        }
+
+        .yellow {
+            background-color: yellow;
+        }
+
+        h1 {
+            z-index: -1;
+        }
+    </style>
+
 </head>
+
 <body>
+    <!-- <h1>BOXES</h1> -->
     <div class="boxes">
         <div class="box red">Content 1</div>
         <div class="box blue">Content 2</div>
-        <div class="box yellow">Content 3</div>
+        <!-- <div class="box yellow">Content 3</div> -->
     </div>
     <div class="content">
         <h2>
@@ -25,4 +64,5 @@
         </p>
     </div>
 </body>
+
 </html>
