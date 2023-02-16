@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #BFD7EA;
+    font-family: 'Raleway', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 10px 0;
+}
+.navbar {
+    background-color: #333;
+    height: 50px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.profile-pic {
+    width: 400px;
+    margin: 0 auto;
+}
+.profile-pic img {
+    width: 100%;
+    margin: 0 auto;
+}
+header {
+    background-color: #EEE0CB;
+    text-align: center;
+    padding: 1rem;
+}
+ul {
+    list-style: none;
+}
+
+main {
+    background-color: #839788;
+    color: white;
+    padding: 1rem;
+}
+
+strong {
+    color: black;
+}
+
+.education ul, .work-experience p {
+    padding-left: 2rem;
+}
+
+footer {
+    background-color: #BAA898;
+    padding: 1rem;
+    text-align: center;
+}
+footer nav a {
+    text-decoration: none;
+    color: rgb(255, 0, 128);
+    font-weight: 600;
+}
+nav {
+
+    font-family: 'Roboto', sans-serif;
+}
