@@ -1,0 +1,23 @@
+
+.img-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.2em;
+    z-index: 1;
+}
+
+/* .img-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
