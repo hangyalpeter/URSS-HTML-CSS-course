@@ -1,0 +1,39 @@
+ body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .img-wrapper {
+            width: 400px;
+            margin: 0 auto;
+        }
+        img {
+            width: 100%;
+        }
+        p, h2, h1 {
+            text-align: center;
+        }
+
+        nav {
+            height: 50px;
+            background-color: aqua;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 1em;
+            padding-right: 1em;
+            position: sticky;
+            top: 0;
+        }
+
+        button {
+            padding: 0.5em;
+            background-color: black;
+            color: white;
+            border-radius: 25px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: wheat;
+        }
